@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Status</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="mainContainer center">
+        <div class="app">
+            <div class="header">
+                <i class="fas fa-arrow-circle-left"></i>
+                <p>Weather App</p>
+            </div>
+
+            <section class="inputInfo">
+                <div class="search ">
+                    <!-- <div class="alert">Enter a valid city</div> -->
+                    <!-- <div class="pending">Getting the data !</div> -->
+                    <input class="input" type="search" placeholder="Enter your city">
+                </div>
+                <div class="sep center"><span>or</span></div>
+                <button class="getLocation">Get Location</button>
+            </section>
+
+            <section class="weatherInfo centery hide">
+                <img class="photo" src="assets/img/cloud.svg" alt="">
+                <p class="temp">20 <span><sup>o</sup>C</span></p>
+                <p class="weather">Haze</p>
+                <div class="location center">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="city">Sambalpur</div>
+                </div>
+                <div class="addition">
+                    <div class="feelslike center s">
+                        <i class="fas fa-thermometer-three-quarters"></i>
+                        <div class="sub1">
+                            <p class="tempFeel">20 <span><sup>o</sup>C</span></p>
+                            <p>Feels Like</p>
+                        </div>
+                    </div>
+                    <div class="humidity center s">
+                        <i class="fas fa-tint"></i>
+                        <div class="sub2">
+                            <p class="humidityLabel">20 <span><sup>o</sup>C</span></p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

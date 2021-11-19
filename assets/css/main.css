@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.app {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #fffffe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem; }
+  .app .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+    .app .header i {
+      cursor: pointer;
+      margin-right: 1rem; }
+  .app .inputInfo {
+    width: 100%; }
+    .app .inputInfo .search {
+      width: 100%; }
+      .app .inputInfo .search .alert {
+        padding: 0.5rem;
+        text-align: center;
+        background: rgba(255, 0, 0, 0.418);
+        border-radius: 5px;
+        color: #d81f1f;
+        margin: 0 0 1rem 0px; }
+      .app .inputInfo .search .pending {
+        padding: 0.5rem;
+        text-align: center;
+        background: rgba(0, 174, 255, 0.418);
+        border-radius: 5px;
+        color: #22769c;
+        margin: 0 0 1rem 0px; }
+      .app .inputInfo .search input {
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem;
+        border: 1px solid #272343;
+        outline: none;
+        border-radius: 5px; }
+    .app .inputInfo .sep {
+      position: relative;
+      margin: 1rem 0;
+      background: black;
+      width: 100%;
+      height: 1px; }
+      .app .inputInfo .sep span {
+        padding: 0 7px;
+        background: #fffffe;
+        position: absolute; }
+    .app .inputInfo button {
+      background-color: #ffd803;
+      padding: 0.5rem;
+      width: 100%;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      cursor: pointer; }
+  .app .weatherInfo {
+    position: relative;
+    width: 100%; }
+    .app .weatherInfo .photo {
+      margin: 2rem 0 1rem 0;
+      position: relative;
+      width: 100px; }
+    .app .weatherInfo .temp {
+      margin: 0px;
+      font-size: 4rem; }
+      .app .weatherInfo .temp span sup {
+        font-size: 2rem; }
+    .app .weatherInfo .weather {
+      margin: 1rem 0; }
+    .app .weatherInfo .location i {
+      margin: 0 0.5rem 0 0; }
+    .app .weatherInfo .addition {
+      width: 100%;
+      margin-top: 1.5rem;
+      border: 1px sollid black;
+      display: flex;
+      justify-content: space-between; }
+      .app .weatherInfo .addition .s {
+        border-top: 1px solid black;
+        width: 50%;
+        padding-top: 1rem; }
+      .app .weatherInfo .addition .s:nth-child(1) {
+        border-right: 1px solid black; }
+      .app .weatherInfo .addition i {
+        font-size: 2rem;
+        margin-right: 0.5rem; }
+      .app .weatherInfo .addition p {
+        margin: 0px;
+        font-size: 1rem;
+        line-height: 1rem; }
+      .app .weatherInfo .addition .tempFeel span sup {
+        font-size: 0.5rem; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  color: #272343; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.centery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  background: #bae8e8;
+  position: relative;
+  overflow: hidden; }
+  .mainContainer img {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px; }
+
+.hide {
+  display: none; }
